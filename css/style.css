@@ -34,7 +34,7 @@
 }
 .navbar ul .nav-link {
   color: #333333 !important;
-  margin-right: 30px;
+  margin-right: 20px;
   font-size: 20px;
 }
 .navbar ul .active {
@@ -98,6 +98,10 @@ footer .orange-footer a {
   text-decoration: none;
   color: white;
   margin-right: 7px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 #btn-back-to-top {
@@ -279,7 +283,7 @@ header .header-content .icons-group img {
 }
 .our-team .our-team-box {
   background-image: url(../images/t1.png);
-  background-size: auto;
+  background-size: contain;
   background-position: 50%;
   background-repeat: no-repeat;
   height: 500px;
@@ -310,6 +314,15 @@ header .header-content .icons-group img {
   justify-content: space-between;
   width: 60%;
   margin-top: 20px;
+}
+.our-team .member-2 {
+  background-image: url(../images/t2.png);
+}
+.our-team .member-3 {
+  background-image: url(../images/t3.png);
+}
+.our-team .member-4 {
+  background-image: url(../images/t4.png);
 }
 
 .our-clients {

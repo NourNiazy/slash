@@ -102,6 +102,10 @@ footer .orange-footer a {
   text-align: right;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
@@ -314,6 +318,15 @@ header .header-content .icons-group img {
   justify-content: space-between;
   width: 60%;
   margin-top: 20px;
+}
+.our-team .member-2 {
+  background-image: url(../images/t2.png);
+}
+.our-team .member-3 {
+  background-image: url(../images/t3.png);
+}
+.our-team .member-4 {
+  background-image: url(../images/t4.png);
 }
 
 .our-clients {

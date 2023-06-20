@@ -2,6 +2,9 @@
     direction: rtl;
     text-align: right;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -231,6 +234,17 @@ header{
                 }
             }
         }
+                .member-2 {
+                    background-image: url(../images/t2.png);
+                }
+        
+                .member-3 {
+                    background-image: url(../images/t3.png);
+                }
+        
+                .member-4 {
+                    background-image: url(../images/t4.png);
+                }
 }
 .our-clients{
     padding: 150px 0px;
