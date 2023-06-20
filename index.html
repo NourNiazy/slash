@@ -27,29 +27,29 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">about us</a>
+                    <a class="nav-link" href="#about-us">about us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">services</a>
+                    <a class="nav-link" aria-current="page" href="#services">services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">portfolio</a>
+                    <a class="nav-link" href="#portfolio">portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">news</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">our team</a>
+                    <a class="nav-link" href="#our-team">our team</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">clients</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="#contact">contact</a>
                 </li>
                 <li class="nav-item dropdown d-flex align-items-baseline" >
                     <a class="dropdown-item" href="#"><img src="images/united-states.png" alt="" class="language-img">EN</a>
-                    <a class="nav-link dropdown-toggle lan-div" href="#" role="button" data-bs-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle lan-div m-0" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         
                     </a>
@@ -83,7 +83,10 @@
         </div>
     </div>
 </header>
-<div class="about">
+<button type="button" class="btn btn btn-floating btn-lg" id="btn-back-to-top">
+    <img src="images/go-up.png" alt="">
+</button>
+<div class="about" id="about-us">
     <div class="container">
         <div class="row">
             <div class="col-xl-4 photo-1 d-flex flex-column align-items-end justify-content-end mb-4 mb-xl-0">
@@ -106,7 +109,8 @@
        
     </div>
 </div>
-<div class="services">
+<!--services-->
+<div class="services" id="services">
     <div class="container">
         <div class="row">
             <h3>OUR SERVICES</h3>
@@ -188,7 +192,7 @@
     </div>
 </div>
 <!--Latest work-->
-<div class="latest-work">
+<div class="latest-work" id="portfolio">
     <div class="container">
         <div class="mb-3 d-flex flex-column  flex-sm-row justify-content-between" >
             <div><h3>latest work</h3></div>
@@ -258,9 +262,16 @@
             <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab">branding</div>
             <div class="tab-pane fade" id="pills-webD" role="tabpanel" aria-labelledby="pills-webD-tab">webD</div>
         </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="mt-5 d-flex justify-content-center see-more">
+                    <a href="">VIEW MORE WORKS</a></a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<div class="contact">
+<div class="contact" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-xl-3">
@@ -308,7 +319,7 @@
     </div>
 </div>
 <!--OUR TEAM-->
-<div class="our-team">
+<div class="our-team" id="our-team">
     <div class="container">
         <div class="row">
             <div class="col-xl-3">
@@ -383,7 +394,7 @@
     </div>
 </div>
 <!--Clients-->
-<div class="our-clients">
+<div class="our-clients" id="our-clients">
     <div class="container">
         <div class="row">
             <div class="col-xl-3">
@@ -495,5 +506,6 @@
 </footer>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -21,10 +21,13 @@
     width: 120px;
   }
 }
+.navbar ul .dropdown {
+  margin-right: 30px;
+}
 .navbar ul .dropdown img {
   width: 30px;
   height: 30px;
-  margin-right: 3px;
+  margin-left: 3px;
 }
 .navbar ul .nav-link {
   color: #333333 !important;
@@ -97,6 +100,14 @@ footer .orange-footer a {
 * {
   direction: rtl;
   text-align: right;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 10;
 }
 
 header {
@@ -184,6 +195,11 @@ header .header-content .icons-group img {
 .latest-work {
   padding: 150px 0px;
   background-color: #233F8C;
+}
+.latest-work .see-more a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 .latest-work img {
   max-height: 409px;
