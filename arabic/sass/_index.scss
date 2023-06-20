@@ -29,16 +29,22 @@ header{
         align-self: center;
         margin-top: 20%;
         h2{
-            font-size: 75px;
+            font-size: 70px;
             color: white;
             width: 337px;
             margin-bottom: 30px;
+            @media only screen and (max-width: 768px) {
+                    font-size: 45px;
+                }
         }
         p{
             color: white;
             font-size: 25px;
             width: 195px;
             margin-bottom: 30px;
+            @media only screen and (max-width: 768px) {
+                    font-size: 15px;
+                }
         }
         .icons-group{
             display: flex;
