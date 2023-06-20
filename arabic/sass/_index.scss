@@ -2,6 +2,9 @@
     direction: rtl;
     text-align: right;
 }
+img{
+    object-fit: contain !important;
+}
 body {
     font-family: 'Montserrat', sans-serif;
 }
