@@ -23,7 +23,7 @@
     }
     ul{
         .dropdown{
-            margin-left: 30px;
+            margin-left: 20px;
             .lan-div{
                 margin: 0px !important;
             }
@@ -35,8 +35,8 @@
         }
         .nav-link{
             color: #333333 !important;
-            margin-right: 0px;
-            font-size: 15px;
+            font-size: 14px;
+            text-transform: uppercase;
         }
         .active{
             color:$main-color!important;

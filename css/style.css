@@ -24,7 +24,7 @@
   }
 }
 .navbar ul .dropdown {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .navbar ul .dropdown .lan-div {
   margin: 0px !important;
@@ -36,8 +36,8 @@
 }
 .navbar ul .nav-link {
   color: #333333 !important;
-  margin-right: 0px;
-  font-size: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .navbar ul .active {
   color: #F39A1E !important;
