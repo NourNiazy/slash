@@ -119,6 +119,18 @@ body {
   z-index: 10;
 }
 
+.btn-floating-whatsapp {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  display: block;
+  z-index: 10;
+}
+.btn-floating-whatsapp a img {
+  width: 60px;
+  height: 60px;
+}
+
 header {
   background-image: url(../images/en-headerbg.png);
   background-size: cover;
