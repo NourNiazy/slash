@@ -247,6 +247,7 @@ header .header-content .icons-group img {
   text-decoration: none;
   color: white;
   font-size: 20px;
+  cursor: pointer;
 }
 .latest-work img {
   max-height: 409px;
