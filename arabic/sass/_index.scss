@@ -70,7 +70,7 @@ header{
 }
 .about {
     background-color: #F3EFEF;
-    padding: 188px 0px 120px 0px;
+    padding: 100px 0px 100px 0px;
     
     .photo-1{
         height: 772px;
@@ -98,7 +98,7 @@ header{
 }
 
 .services{
-    padding: 150px 0px;
+    padding: 100px 0px;
     h3{
         font-size: 50px;
             margin-bottom: 32px;
@@ -121,7 +121,7 @@ header{
     }
 }
 .latest-work{
-    padding: 150px 0px;
+    padding: 100px 0px;
     background-color: $header-color;
     .see-more{
         a{
@@ -153,7 +153,7 @@ header{
 }
 
 .contact{
-    padding: 150px 0px;
+    padding: 100px 0px;
     background-color: #FCFCFC;
     h3 {
             font-size: 50px;
@@ -171,8 +171,10 @@ header{
             margin-top: 90px;
             form{
                 .side{
+                    
                     input{
                         width: 49%;
+                        
                     }
                 }
                 input,textarea{
@@ -183,6 +185,7 @@ header{
                 button{
                     background-color: $header-color;
                     border-radius: 0%;
+                  
                 }
             }
             .contact-details {
@@ -210,7 +213,7 @@ header{
 }
 
 .our-team{
-    padding: 150px 0px;
+    padding: 100px 0px;
     
         h3 {
             font-size: 50px;
@@ -270,7 +273,7 @@ header{
                 }
 }
 .our-clients{
-    padding: 150px 0px;
+    padding: 100px 0px;
     
         h3 {
             font-size: 50px;

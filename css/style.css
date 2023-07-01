@@ -177,7 +177,7 @@ header .header-content .icons-group img {
 
 .about {
   background-color: #F3EFEF;
-  padding: 188px 0px 120px 0px;
+  padding: 100px 0px;
 }
 .about .photo-1 {
   height: 772px;
@@ -200,7 +200,7 @@ header .header-content .icons-group img {
 }
 
 .services {
-  padding: 150px 0px;
+  padding: 100px 0px;
 }
 .services h3 {
   font-size: 50px;
@@ -222,8 +222,26 @@ header .header-content .icons-group img {
 }
 
 .latest-work {
-  padding: 150px 0px;
+  padding: 100px 0px;
   background-color: #233F8C;
+}
+.latest-work #more {
+  display: none;
+}
+.latest-work .tabcontent {
+  display: none;
+  animation: fadeEffect 1s;
+}
+.latest-work .tabcontent-active {
+  display: none;
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .latest-work .see-more a {
   text-decoration: none;
@@ -239,16 +257,17 @@ header .header-content .icons-group img {
   color: white;
   text-transform: uppercase;
 }
-.latest-work ul li .nav-link {
+.latest-work .tab button {
+  border: none;
+  background-color: transparent;
   color: white;
 }
-.latest-work ul li .nav-link.active {
+.latest-work .tab .active {
   color: #F39A1E;
-  background-color: transparent;
 }
 
 .contact {
-  padding: 150px 0px;
+  padding: 100px 0px;
   background-color: #FCFCFC;
 }
 .contact h3 {
@@ -264,6 +283,9 @@ header .header-content .icons-group img {
 }
 .contact .contact-us {
   margin-top: 90px;
+}
+.contact .contact-us form .error {
+  border: 1px solid red;
 }
 .contact .contact-us form .side input {
   width: 49%;
@@ -297,7 +319,7 @@ header .header-content .icons-group img {
 }
 
 .our-team {
-  padding: 150px 0px;
+  padding: 100px 0px;
 }
 .our-team h3 {
   font-size: 50px;
@@ -355,7 +377,7 @@ header .header-content .icons-group img {
 }
 
 .our-clients {
-  padding: 150px 0px;
+  padding: 100px 0px;
 }
 .our-clients h3 {
   font-size: 50px;

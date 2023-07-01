@@ -70,7 +70,7 @@ header {
 }
 .about {
     background-color: #F3EFEF;
-    padding: 188px 0px 120px 0px;
+    padding: 100px 0px ;
     .photo-1{
         height: 772px;
     }
@@ -95,7 +95,7 @@ header {
 }
 
 .services{
-    padding: 150px 0px;
+    padding: 100px 0px;
     h3{
         font-size: 50px;
             margin-bottom: 32px;
@@ -118,7 +118,26 @@ header {
     }
 }
 .latest-work{
-    padding: 150px 0px;
+    #more {
+            display: none;
+        }
+    .tabcontent {
+            display: none;
+            animation: fadeEffect 1s;
+        }
+                .tabcontent-active {
+                    display: none;
+                }
+        @keyframes fadeEffect {
+            from {
+                 opacity: 0;
+                        }
+                
+                 to {
+                      opacity: 1;
+                        }
+                                }
+    padding: 100px 0px;
     background-color: $header-color;
     .see-more {
             a {
@@ -136,21 +155,20 @@ header {
             color: white;
             text-transform: uppercase;
         }
-        ul{
-            li{
-                .nav-link{
-                    color: white;
-                }
-                .nav-link.active{
-                    color: $main-color;
-                    background-color: transparent;
-                }
+        .tab{
+            button{
+                border: none;
+                background-color: transparent;
+                color: white;
+            }
+            .active{
+                color: $main-color;
             }
         }
 }
 
 .contact{
-    padding: 150px 0px;
+    padding: 100px 0px;
     background-color: #FCFCFC;
     h3 {
             font-size: 50px;
@@ -167,6 +185,9 @@ header {
         .contact-us{
             margin-top: 90px;
             form{
+                .error {
+                        border: 1px solid red;
+                    }
                 .side{
                     input{
                         width: 49%;
@@ -176,6 +197,7 @@ header {
                     background-color: #F3EFEF;
                     border: none;
                     border-radius: 0%;
+                    
                 }
                 button{
                     background-color: $header-color;
@@ -207,7 +229,7 @@ header {
 }
 
 .our-team{
-    padding: 150px 0px;
+    padding: 100px 0px;
     
         h3 {
             font-size: 50px;
@@ -267,7 +289,7 @@ header {
                 }
 }
 .our-clients{
-    padding: 150px 0px;
+    padding: 100px 0px;
     
         h3 {
             font-size: 50px;
