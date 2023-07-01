@@ -249,6 +249,9 @@ header .header-content .icons-group img {
   font-size: 20px;
   cursor: pointer;
 }
+.latest-work .see-more a:hover {
+  color: #F39A1E;
+}
 .latest-work img {
   max-height: 409px;
 }

@@ -145,7 +145,11 @@ header {
                 color: white;
                 font-size: 20px;
                 cursor: pointer;
+                &:hover{
+                    color: $main-color;
+                }
             }
+        
         }
     img{
         max-height: 409px;
