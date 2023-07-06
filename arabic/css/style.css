@@ -230,10 +230,32 @@ header .header-content .icons-group img {
   padding: 100px 0px;
   background-color: #233F8C;
 }
+.latest-work #more {
+  display: none;
+}
+.latest-work .tabcontent {
+  display: none;
+  animation: fadeEffect 1s;
+}
+.latest-work .tabcontent-active {
+  display: none;
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .latest-work .see-more a {
   text-decoration: none;
   color: white;
   font-size: 20px;
+  cursor: pointer;
+}
+.latest-work .see-more a:hover {
+  color: #F39A1E;
 }
 .latest-work img {
   max-height: 409px;
@@ -244,12 +266,13 @@ header .header-content .icons-group img {
   color: white;
   text-transform: uppercase;
 }
-.latest-work ul li .nav-link {
+.latest-work .tab button {
+  border: none;
+  background-color: transparent;
   color: white;
 }
-.latest-work ul li .nav-link.active {
+.latest-work .tab .active {
   color: #F39A1E;
-  background-color: transparent;
 }
 
 .contact {
