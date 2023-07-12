@@ -337,7 +337,6 @@ header .header-content .icons-group img {
   text-align: center;
 }
 .our-team .our-team-box {
-  background-image: url(../images/t1.png);
   background-size: contain;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -370,16 +369,6 @@ header .header-content .icons-group img {
   width: 60%;
   margin-top: 20px;
 }
-.our-team .member-2 {
-  background-image: url(../images/t2.png);
-}
-.our-team .member-3 {
-  background-image: url(../images/t3.png);
-}
-.our-team .member-4 {
-  background-image: url(../images/t4.png);
-}
-
 .our-clients {
   padding: 100px 0px;
 }
